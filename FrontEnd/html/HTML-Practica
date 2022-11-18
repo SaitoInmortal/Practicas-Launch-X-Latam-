@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PollosFritos</title>
+        <style>
+            header {
+                background-color: rgb(83, 189, 172);
+                padding: 20px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            h3{
+                padding-left: 10px;
+            }
+            p{
+                padding-left: 20px;
+            }
+            form{
+                padding-left: 30px;
+            }
+            #e{
+                padding-left: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./Chicken_1_-removebg-preview.png" alt="logo de un pollo preparado para comer">
+            <h1>Fried CHicken, desde 2022</h1>
+        </header>
+        <section>
+            <h2>Menu</h2>
+            <dl>
+                <hr>
+                <dt><h3>Combos Mini</h3></dt>
+                <p>Estos combos incluye papas y bebida pequeñas</p>
+                <dd><dt id="e"># FLASH-----------------------3$</dt><dd>Una pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># ECOECO----------------------6$</dt><dd>Dos pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># HULK-----------------------12$</dt><dd>Cuatro pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <hr>
+                <dt><h3>Combos Medio</h3></dt>
+                <p>Estos combos incluye papas y bebida medianas</p>
+                <dd><dt id="e"># FLASH-----------------------5$</dt><dd>Una pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># ECOECO----------------------8$</dt><dd>Dos pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># HULK-----------------------15$</dt><dd>Cuatro pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <hr>
+                <dt><h3>Combos Mega</h3></dt>
+                <p>Estos combos incluye papas y bebida grandes</p>
+                <dd><dt id="e"># FLASH-----------------------7$</dt><dd>Una pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># ECOECO---------------------10$</dt><dd>Dos pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># HULK-----------------------18$</dt><dd>Cuatro pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <hr>
+                <dt><h3>Combos Ultra</h3></dt>
+                <p>Estos combos incluye papas, helado, postre y bebida medianas</p>
+                <dd><dt id="e"># FLASH----------------------10$</dt><dd>Una pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># ECOECO---------------------13$</dt><dd>Dos pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <dd><dt id="e"># HULK-----------------------22$</dt><dd>Cuatro pieza de pollo, papas, salsa de tomate, mayonesa y bebida</dd></dd>
+                <hr>
+            </dl>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ubicacion</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Toscana</td>
+                    <td><a href="https://www.google.com/maps/place/Restaurant+%22El+Rancho%22/@-0.782923,-80.2356434,14z/data=!4m15!1m8!3m7!1s0x902ba4562f610f71:0x6050b7d1542e99e4!2sTosagua!3b1!8m2!3d-0.7842208!4d-80.2343302!16s%2Fm%2F03qp22r!3m5!1s0x902ba506dff72c67:0x57474ba28ec51c6!8m2!3d-0.7740283!4d-80.2351008!16s%2Fg%2F11b6v61z8g">Cinco esquinas</a></td>
+                    <td>7:00 am - 10:00 pm</td>
+                </tr>
+                <tr>
+                    <td>Jhaneth</td>
+                    <td><a href="https://www.google.com/maps/place/Parque+Central+de+Tosagua/@-0.782923,-80.2356434,14z/data=!4m15!1m8!3m7!1s0x902ba4562f610f71:0x6050b7d1542e99e4!2sTosagua!3b1!8m2!3d-0.7842208!4d-80.2343302!16s%2Fm%2F03qp22r!3m5!1s0x902ba4f84ba81737:0x97a6a5433510c65f!8m2!3d-0.7878444!4d-80.2346582!16s%2Fg%2F1v2gfttl">Calle. Federico Paez</a></td>
+                    <td>7:00 am - 10:00 pm</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Pedidos</h2>
+            <h3>Haz tu pedido aqui</h3>
+            <form>
+                <br>
+                <label for="nombre">Nombre:  </label> 
+                <input type="text" id="nombre" name="nombre" placeholder="tu nombre"><br><br>
+                <label for="tel1">Teléfono:</label>
+                <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="a quien llamo"><br><br>
+                <label for="Direcion">Direcion:  </label> 
+                <input type="text" id="Direcion" name="Direcion" placeholder="donde lo mando"><br><br>
+                <label for="local">Surcusal: </label>
+                <select id="local" name="local">
+                    <option value="Toscana">Toscana</option>
+                    <option value="Jhaneth">Jhaneth</option>
+                </select>
+                <br><br>
+                <label for="combo">Combo: </label>
+                <select id="combo" name="combo">
+                    <option value="Toscana">Mini</option>
+                    <option value="Jhaneth">Medio</option>
+                    <option value="Jhaneth">Mega</option>
+                    <option value="Jhaneth">Ultra</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="FLASH" name="FLASH" value="FLASH">
+                <label for="FLASH">FLASH  </label> 
+                <input type="number" id="numero" name="numero1" placeholder="cuantos quieres"> <br>
+                <input type="checkbox" id="ECOECO" name="ECOECO" value="ECOECO">
+                <label for="ECOECO">ECOECO  </label>
+                <input type="number" id="numero" name="numero2" placeholder="cuantos quieres"><br>
+                <input type="checkbox" id="HULK" name="HULK" value="HULK">
+                <label for="HULK">HULK </label>
+                <input type="number" id="numero" name="numero3" placeholder="cuantos quieres"><br><br>
+                <input type="button" id="Agregar" name="Agregar" value="Agregar" onclick="alert('Agregado al Carrito');"><br>
+            </form>
+    </section>
+        
+    </body>
+</html>
