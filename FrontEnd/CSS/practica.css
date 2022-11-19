@@ -1,0 +1,134 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+.barrainicio{
+    background: linear-gradient(270deg, #e9f1fc 50% , #ffffff 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px;
+    margin: 0;
+}
+.Nombre-Empresa{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    margin-inline: 10px;
+}
+.inicio{
+    color: #3858d6;
+    text-align: center;
+    font-size: 30px;
+}
+.opciones{
+    margin-right: 7%;
+}
+.nav-link{
+    padding: 10px;
+    text-decoration: none;
+    color: #6d7b93;
+    font-size: 20px;
+    margin-inline: 20px;
+}
+.nav-link:hover{
+    color: #ffffff;
+    background-color: #3858d6;
+    border: 1px solid #3858d6;
+    border-radius: 7px;
+}
+.par1{
+    display: flex;
+    border: 10px solid#ffffff;
+
+}
+.colm1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 50%;
+    height: 800px;
+    background-image: url("https://us.123rf.com/450wm/pashabo/pashabo1708/pashabo170800023/83306411-patr%C3%B3n-de-tri%C3%A1ngulo-blanco-3d-transparente-textura-de-dise%C3%B1o-fondo-blanco-low-poly-pattern.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.titulo{
+    width: 350px;
+    color: #1f3e72;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 150px;
+}
+.p1{
+    width: 350px;
+    text-align: left;
+    line-height: 30px;
+    color: #6d7b93;
+    font-size: 20px;
+    padding-inline: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sellos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 5px;
+    color: #1f3e72;
+}
+.iconos{
+    margin-right: 3px;
+    background-color: #fef4ca;
+    box-shadow: 0px 10px 20px #fef4ca;
+    
+}
+.sellos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 90px;
+    color: #1f3e72;
+}
+.iconos2{
+    background-color: #cddefd;
+    box-shadow: 0px 10px 20px #cddefd;
+}
+.colm2{
+    width: 50%;
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-photo/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue_179666-32947.jpg?w=740&t=st=1668811898~exp=1668812498~hmac=58bf920f861e1caf7a96a1fe60d915d6d0c20c163b3d3ed68b70674cf91387d3");
+    background-position: top center;
+    background-size: cover;
+}
+.fv{
+    position: relative;
+    left: 200px;
+    padding: 20px;
+    background-color: #ffffff9c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 720px;
+}
+#min{
+    margin-top: 0;
+    padding-right: 0;
+    color: #6d7b93;
+    font-size: 15px;
+}
+#t{
+    margin-left: 10px;
+}
+.selec{
+    color: #1f3e72;
+}
