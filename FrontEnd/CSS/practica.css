@@ -28,7 +28,7 @@ body{
     font-size: 30px;
 }
 .opciones{
-    margin-right: 7%;
+    margin-right: 10%;
 }
 .nav-link{
     padding: 10px;
@@ -112,13 +112,15 @@ body{
 }
 .fv{
     position: relative;
-    left: 200px;
+    left: 230px;
     padding: 20px;
-    background-color: #ffffff9c;
+    background-color: #ffffffe1;
+    border: 1px solid #ffffffe1;
+    border-radius: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    width: 720px;
+    width: 780px;
 }
 #min{
     margin-top: 0;
@@ -126,9 +128,60 @@ body{
     color: #6d7b93;
     font-size: 15px;
 }
-#t{
-    margin-left: 10px;
-}
 .selec{
     color: #1f3e72;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+    appearance: none;
+}
+.bs{
+    color: #ffffff;
+    padding: 20px;
+    background-color: #1f3e72;
+    border: 1px solid #1f3e72;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#t{
+    margin-left: 10px;
+    text-align: left;
+    width: 110px;
+}
+.par2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iv{
+    height: 120px;
+}
+.bt{
+    padding: 20px;
+    margin-left: 110px;
+}
+#tbt{
+    width: 1000px;
+}
+#pbt{
+    width: 520px;
+    padding-inline: 10px;
+}
+.p2-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.tsello{
+    color: #1f3e72;
+}
+.p3{
+    width: 230px;
+    text-align: justify;
+    text-align: left;
+    line-height: 25px;
+    color: #6d7b93;
+    font-size: 15px;
 }
