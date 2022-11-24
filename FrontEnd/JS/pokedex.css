@@ -1,0 +1,157 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg");
+    background-position:center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    -webkit-text-stroke: 2px #3B5C94;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FECA1B;
+}
+.pokedex{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.pokedexS{
+    height: 200px;
+    width: 350px;
+    background-color: #FF0000;
+    border: 5px solid #b00a0a;
+    border-radius: 14px;
+}
+.ims{
+    position: relative;
+    top: 136px;
+    right: 5px;
+}
+.pokedexF{
+    width: 330px;
+    height: 550px;
+    padding: 10px;
+    background-color: #53B2E2;
+    border-inline: 5px solid #499dc7;
+    background-image: url("https://www.nicepng.com/png/full/102-1022122_fondo-vector-glossario-de-cts-ciencia-tecnologia-e.png");
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#pokeImg{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 3px solid #2d6480;
+    border-radius: 14px;
+}
+.buscadorP{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+#pokeNum{
+    display: none;
+    width: 50px;
+    appearance: none;
+    margin-inline: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+#pokeName{
+    width: 150px;
+    margin-inline: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
+}
+button{
+    background-image: url("https://www.alium.com/wp-content/uploads/2017/02/alium_web-19.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 16px;
+    margin-inline: 5px;
+    border-radius: 18px;
+}
+.tm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 90%;
+}
+.tm1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    height: 22px;
+}
+.am{
+    display: flex;
+    align-items: center;
+    flex-direction:column;   
+}
+.am h3{
+    width: 290px;
+}
+.am .tm{
+    justify-content: space-between;
+}
+.ap{
+    background-color: #ffffff;
+    border: 2px solid #aeabab;
+    border-radius: 14px;
+    font-size: 10px;
+    padding: 10px;
+}
+h3{
+    font-size: 10px;
+}
+.tipo{
+    background-color: #ffffff;
+    border: 2px solid #aeabab;
+    border-radius: 14px;
+    font-size: 10px;
+    padding: 5px;
+}
+.pokedexI{
+    height: 200px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 5px solid #aeabab;
+    border-radius: 14px;
+}
+.imi{
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+.barra{
+    width: 100%;
+    height: 10px;
+    background-color: #c3ebff;
+    border: 1px solid #2d6480;
+    border-radius: 7px;
+}
+.progeso{
+
+    background-color: #11ff64;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    width: 50%;
+    height: 8px;
+}
+#nombret{
+    display: none;
+}
+.pokedexF{
+    display: none;
+}

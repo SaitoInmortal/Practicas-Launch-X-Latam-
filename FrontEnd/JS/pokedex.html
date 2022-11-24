@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <div class="pokedex">
+        <div class="pokedexS">
+            <img src="./macos.png" alt="marco de pokemon superior" class="ims" onclick="inicia()">
+        </div>
+        <div class="pokedexF">
+            <img src="https://i.pinimg.com/originals/e3/4f/ac/e34facd1e788d09f2bfcbc2f37f548ce.png" alt="Pokemon" id="pokeImg">
+            <div class="buscadorP">
+                <input type="radio" id="Nombre" name="op" value="Nombre" onclick="op1()">
+                <label for="Nombre">Nombre</label>
+                <input type="radio" id="Nun" name="op" value="Nun" onclick="op2()">
+                <label for="Nun">Nun</label>
+            </div>
+            <div class="buscadorP">
+                <input type="number" id="pokeNum">
+                <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+                <button onclick="fetchPokemon()"></button>
+            </div>
+            <div class="buscadorP">
+                <h3 id="nombret">-----</h3>
+                <h3 id="numerot">-----</h3>
+            </div>
+            <div class="tm">
+                <h3>Tipo:</h3> 
+                <p class="tipo" id="tipo">--------</p>
+            </div>
+            <div class="am">
+                <h3>Habilidades:</h3> 
+                <div class="tm">
+                    <p class="ap">--------</p>
+                    <p class="ap">--------</p>
+                </div>
+            </div>
+            <div class="am">
+                <h3>Estadísticas:</h3>
+                <div class="tm1">
+                    <h3>PS </h3>
+                    <div class="barra">
+                        <div class="progeso" id="PS"></div>
+                    </div>
+                </div>
+                <div class="tm1">
+                    <h3>ATK </h3>
+                    <div class="barra">
+                        <div class="progeso" id="ATK"></div>
+                    </div>
+                </div>
+                <div class="tm1">
+                    <h3>DEF </h3>
+                    <div class="barra">
+                        <div class="progeso" id="DEF"></div>
+                    </div>
+                </div>
+                <div class="tm1">
+                    <h3>SP.ATK </h3>
+                    <div class="barra">
+                        <div class="progeso" id="SP.ATK"></div>
+                    </div>
+                </div>
+                <div class="tm1">
+                    <h3>SP.DEF </h3>
+                    <div class="barra">
+                        <div class="progeso" id="SP.DEF"></div>
+                    </div>
+                </div>
+                <div class="tm1">
+                    <h3>SPEED </h3>
+                    <div class="barra">
+                        <div class="progeso" id="SPEED"></div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+        <div class="pokedexI">
+            <img src="./macoi.png" alt="marco de pokemon inferior" class="imi" onclick="inicia()" >
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
