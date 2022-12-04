@@ -11,7 +11,10 @@ class Pantalla {
             dividir: '/',
             multiplicar: 'x',
             restar: '-',
-            porcentaje: '%',
+            resto: '%',
+            potencia: '^',
+            raiz: '√',
+
         }
     }
 
@@ -45,9 +48,13 @@ class Pantalla {
     calcular() {
         const valorAnterior = parseFloat(this.valorAnterior);
         const valorActual = parseFloat(this.valorActual);
-        if(this.tipoOperacion === "porcentaje"){
-            if(isNaN(valorAnterior) ) return;
-            this.valorActual = this.Calcular[this.tipoOperacion](valorAnterior);
+        if(this.tipoOperacion === "raiz"){
+            if(!isNaN(valorAnterior) ){
+                this.valorActual = this.Calcular[this.tipoOperacion](valorAnterior);
+            }else{
+                if(isNaN(valorActual)) return;
+                this.valorActual = this.Calcular[this.tipoOperacion](valorActual);
+            }
         }else{
             if( isNaN(valorActual)  || isNaN(valorAnterior) ) return;
             this.valorActual = this.Calcular[this.tipoOperacion](valorAnterior, valorActual);
@@ -55,13 +62,18 @@ class Pantalla {
     }
 
     computar(tipo) {
-        if(tipo === "porcentaje"){
+        if(tipo === "raiz"){
+            this.tipoOperacion = tipo;
             this.calcular()
-            this.valorAnterior = this.valorActual
+            this.valorAnterior = this.valorActual;
         }else{
-            this.tipoOperacion !== 'igual' && this.calcular();
-            if (this.valorActual === 0) {
-                this.valorAnterior = this.valorActual
+            if( tipo == 'igual'){
+                this.calcular();
+                if (this.valorActual === 0) {
+                this.valorAnterior = this.valorActual;
+                }else{
+                this.valorAnterior = this.valorActual || this.valorAnterior;
+                }
             }else{
                 this.valorAnterior = this.valorActual || this.valorAnterior;
             }

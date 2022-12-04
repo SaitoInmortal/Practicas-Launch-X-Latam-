@@ -14,7 +14,13 @@ class Calcular {
     multiplicar(num1, num2) {
         return num1 * num2;
     }
-    porcentaje(num2){
-        return num2 / 100;
+    potencia(num1, num2){
+        return Math.pow(num1, num2);
+    }
+    raiz(num2){
+        return Math.sqrt(num2);
+    }
+    resto(num1, num2){
+        return num1 % num2;
     }
 } 

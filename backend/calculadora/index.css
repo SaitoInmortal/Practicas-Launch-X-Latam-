@@ -15,6 +15,7 @@ body {
     height: 100vh;
 }
 .calculadora {
+    height: 600px;
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
@@ -38,6 +39,9 @@ button:active {
 }
 button:focus {
     outline: none;
+}
+.col-2 {
+    grid-column: span 2;
 }
 .pantalla {
     grid-column: 1 / -1;
