@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #d1d9d9;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1B7F79;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.crear{
+    margin-top: 50px;
+    color: #747F7F;
+    border: 2px solid #00CCC0;
+    border-radius: 7px;
+    width: 350px;
+    padding: 10px;
+    background-color: #72f2ec84;
+}
+.titulo{
+    text-align: center;
+}
+.titulo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.unir{
+    margin-top: 50px;
+    color: #747F7F;
+    border: 2px solid #00CCC0;
+    border-radius: 7px;
+    width: 350px;
+    padding: 10px;
+    background-color: #72f2ec84;
+}
+.requisitos{
+    display:none;
+}
+.requisitos2{
+    display:none;
+}
