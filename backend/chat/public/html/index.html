@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private ChatRoom LaunchX </title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Private ChatRoom LaunchX</h1>
+    </header>
+    <section>
+    
+        <div class="crear">
+            <div class="titulo">
+                <h3>Crear Mi sala de chat</h3>
+            </div>
+            <form class="requisitos" action="">
+                <label for="name Room">Escriba el nombre de la sala: </label>
+                <input type="text" id="NameRoom" maxlength="10" required><br>
+                <label for="password">Escriba la contraceña de la sala: </label>
+                <input type="password" id="password" maxlength="6" required><br>
+                <input type="submit" value="Crear Sala" id="crear">
+            </form>
+        </div>
+        <div class="unir">
+            <div class="titulo">
+                <h3>Unirse a sala de chat</h3>
+            </div>
+            <form class="requisitos2" action="">
+                <label for="name Room">Escriba el nombre de la sala: </label>
+                <input type="text" id="nameRoom" maxlength="10" required><br>
+                <input type="submit" value="unirse" id="unirse">
+            </form>
+        </div>
+        <br>
+        <p id="textInfo"></p>
+    </section>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../js/app.js"></script>
+</html>
