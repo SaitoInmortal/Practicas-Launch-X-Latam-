@@ -1,0 +1,16 @@
+{
+  "name": "chatenvivo",
+  "version": "1.0.0",
+  "description": "chatRooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SaitoInmotal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
